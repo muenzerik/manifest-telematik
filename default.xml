@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Copyright (C) 2023 Erik Münz -->
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<manifest>
+
+  <!-- Remote repositories definition -->
+  <remote name="origin" fetch="https://github.com/muenzerik"/>
+  <remote name="github" fetch="https://github.com"/>
+
+  <default revision="master" remote="github" sync-j="4"/>
+
+  <!-- Common TI Platform Project -->
+  <project name="spec-telematik" revision="master" remote="origin" path="spec-telematik"/>
+
+  <!-- TI Component Projects -->
+  <project name="spec-autosar" revision="master" remote="origin" path="projects/spec-autosar"/>
+  <project name="spec-gemSpec_Kon" revision="master" remote="origin" path="projects/spec-gemSpec_Kon"/>
+
+</manifest>

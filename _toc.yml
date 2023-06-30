@@ -1,0 +1,5 @@
+#The sphinx toc containing all files relevant for the "PTV Steckbrief"
+root: spec-telematik/source/index
+entries:
+- glob: projects/spec-autosar/source/autosar/*
+- glob: projects/spec-gemSpec_Kon/source/*
